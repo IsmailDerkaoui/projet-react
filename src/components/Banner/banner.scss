@@ -1,8 +1,15 @@
-
-
-.banner-img {
-
-    border-radius: 1px;
-    margin-bottom: 20px;
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 40px;
 }
+
+.bannerImg {
+    width: 90%;
+}
+
+
 
