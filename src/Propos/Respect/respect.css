@@ -1,0 +1,45 @@
+.respect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 96, 96, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
+    height: 54px;
+  }
+
+  .respectText {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+  }
+
+  .respectContent {
+    width: 90%;
+  }
+
+  .fa-chevron-up {
+    width: 30px;
+    height: 30px;
+    rotate: 90%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .fa-chevron-down {
+    width: 30px;
+    height: 30px;
+    rotate: 90%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .chevron {
+    transition: all 0.3s ease-in-out;
+  }
