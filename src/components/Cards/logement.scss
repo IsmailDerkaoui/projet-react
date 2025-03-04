@@ -1,0 +1,68 @@
+.logements-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logement-card {
+    max-width: 340px;
+    max-height: 340px;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+
+  @media (max-width: 1024px) {
+    .logements-container {
+      grid-template-columns: repeat(2, 1fr);
+      background-color: white;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .logements-container {
+      grid-template-columns: 1fr;
+      background-color: white;
+    }
+  }
+
+
+  .logement-card {
+    position: relative;
+    width: 100%;
+    max-width: 400px; // Ajuste selon tes besoins
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0), rgba(4, 4, 4, 0.41));
+
+
+    .logement-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+  
+    .logement-title {
+      position: absolute;
+      bottom: -15px;
+      left: 2px;
+      color: rgba(255, 255, 255, 1);
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  
+  .logement-link {
+    text-decoration: none; // Enlève le soulignement du lien
+    color: inherit; // Garde la couleur du texte originale
+  }
+  
