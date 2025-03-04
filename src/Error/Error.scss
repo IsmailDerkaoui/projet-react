@@ -1,0 +1,25 @@
+.Error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    gap: 139px;
+}
+
+.textError {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(255, 96, 96, 1);
+}
+
+.retourAccueil {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.imgError {
+    width: 50%;
+    margin-top: 60px;
+}
