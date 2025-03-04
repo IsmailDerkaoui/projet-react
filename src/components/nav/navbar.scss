@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .navbar-logo {
@@ -10,8 +12,17 @@
     margin-top: 20px;
 }
 
-.link-navbar {
+.linkNavbar {
     display: flex;
     gap: 57px;
     margin-right: 20px;
+    & a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            text-decoration: underline;
+            color: rgba(255, 96, 96, 1);
+        }
+    }
 }
+

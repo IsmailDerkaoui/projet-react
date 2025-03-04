@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.navbar-logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.linkNavbar {
+  display: flex;
+  gap: 57px;
+  margin-right: 20px;
+}
+.linkNavbar a {
+  text-decoration: none;
+  color: black;
+}
+.linkNavbar a:hover {
+  text-decoration: underline;
+  color: rgb(255, 96, 96);
+}/*# sourceMappingURL=navbar.css.map */
