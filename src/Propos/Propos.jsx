@@ -15,7 +15,7 @@ function Propos() {
       <div className="bannerPropos">
         <div className="overlay">
           <img
-            src="./img/imgPropos.png"
+            src="./img/Mask Group.png"
             alt="bannière "
             className="imgPropos"
           />
