@@ -26,3 +26,22 @@
     }
 }
 
+@media screen and (max-width : 700px) {
+
+    .linkNavbar {
+        gap: 26px;
+    }
+
+    .linkNavbar a {
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .navbar-logo {
+        img {
+          width: 145px;
+          height: 47px;
+        }
+      }
+}
