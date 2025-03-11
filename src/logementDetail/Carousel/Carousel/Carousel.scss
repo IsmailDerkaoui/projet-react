@@ -1,0 +1,67 @@
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    max-height: 415px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .carouselImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .prev-button {
+    left: 10px;
+  }
+
+  .prevButton {
+    background: none;
+    color: white;
+    left: 10px;
+  }
+
+  .nextButton {
+    background: none;
+    color: white;
+    right: 10px;
+  }
+
+  .lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .lightbox-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+  }

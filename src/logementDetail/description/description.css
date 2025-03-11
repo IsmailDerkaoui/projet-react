@@ -1,0 +1,46 @@
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 96, 96);
+  cursor: pointer;
+  border-radius: 5px;
+  height: 54px;
+  width: 100%;
+}
+
+.descriptionText {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+}
+
+.descriptionContent {
+  width: 100%;
+}
+
+.fa-chevron-up {
+  width: 30px;
+  height: 30px;
+  rotate: 90%;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+
+.fa-chevron-down {
+  width: 30px;
+  height: 30px;
+  rotate: 90%;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.chevron {
+  transition: all 0.3s ease-in-out;
+}/*# sourceMappingURL=description.css.map */

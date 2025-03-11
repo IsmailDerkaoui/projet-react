@@ -1,0 +1,56 @@
+
+
+.equipement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 96, 96, 1);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 54px;
+    width: 100%;
+}
+
+.equipementText {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+}
+
+.equipementContent {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.equipementList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fa-chevron-up {
+    width: 30px;
+    height: 30px;
+    rotate: 90%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 430px;
+    margin-bottom: 35px;
+  }
+
+  .chevron {
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media screen and (max-width : 700px) {
+
+    .fa-chevron-up {
+        margin-left: 0px;
+    }
+}
