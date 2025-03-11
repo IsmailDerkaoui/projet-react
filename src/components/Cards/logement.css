@@ -1,8 +1,9 @@
 .logements-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+  gap: 30px;
+  padding: 30px;
+  max-width: 100%;
 }
 
 .logement-card {
@@ -31,17 +32,40 @@
     background-color: white;
   }
 }
+.logement-image-container {
+  position: relative;
+  width: 100%;
+  height: 340px;
+}
+
+.logement-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.logement-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(10, 10, 10, 0), rgba(4, 4, 4, 0.41));
+}
+
 .logement-card {
   position: relative;
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
   overflow: hidden;
-  background: linear-gradient(to bottom, rgba(10, 10, 10, 0), rgba(4, 4, 4, 0.41));
 }
 .logement-card .logement-image {
   width: 100%;
-  height: auto;
+  max-height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
   border-radius: 10px;
 }
@@ -56,5 +80,5 @@
 
 .logement-link {
   text-decoration: none;
-  color: inherit;
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=logement.css.map */
