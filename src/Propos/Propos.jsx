@@ -2,7 +2,7 @@ import React from "react";
 //import "./App.css";
 import Navbar from "../components/nav/Navbar.jsx";
 import Footer from "../components/Footer/Footer.jsx";
-import "./propos.css";
+import "./propos.scss";
 import Securite from "./Securite/Securite.jsx";
 import Service from "./Service/Service.jsx";
 import Respect from "./Respect/Respect.jsx";

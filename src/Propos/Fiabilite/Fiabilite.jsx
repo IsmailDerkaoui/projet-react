@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./fiabilite.css";
+import "./fiabilite.scss";
 
 const Fiabilite = () => {
   const [isOpen, setIsOpen] = useState(false);
