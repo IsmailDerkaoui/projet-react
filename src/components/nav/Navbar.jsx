@@ -6,7 +6,7 @@ function Navbar() {
     return <nav className="navbar">
       <Link to="/">
       <div className="navbar-logo">
-      <img src="./img/logo.png" alt="logo kasa" />
+      <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="logo kasa" />
       </div>
       </Link>
       <div className="linkNavbar">
