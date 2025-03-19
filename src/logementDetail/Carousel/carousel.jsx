@@ -30,7 +30,7 @@ const Carousel = ({ images }) => {
     <div>
       <div className="carouselContainer">
         <button onClick={prevImage} className="prevButton">
-          &#10094;
+        <div className="flecheGauche"><i class="fa-solid fa-chevron-left"></i></div>
         </button>
         <img
           src={images[currentIndex]}

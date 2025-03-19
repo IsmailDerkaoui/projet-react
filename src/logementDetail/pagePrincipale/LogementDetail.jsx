@@ -31,7 +31,7 @@ function LogementDetail() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className="logementDetail">
         <div className="carousel">
           <div className="imgCarousel">
@@ -64,9 +64,7 @@ function LogementDetail() {
           </div>
         </div>
         <div className="cozyCanal">
-          <p className="cozy">Cozy</p>
-          <p className="canal">Canal</p>
-          <p className="locationCanal">Paris 10</p>
+          {logement.tags.map(tag => <p className="tag">{tag}</p>)}
         </div>
         <div className="descriptionEquipement">
           <Description  logement={logement} />

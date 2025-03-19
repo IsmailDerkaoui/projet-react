@@ -7,7 +7,7 @@ const Description = ({ logement }) => {
   console.log("logement:", logement);
 
   return (
-    <div>
+    <div className="collapse-box">
       <div className="description" onClick={() => setIsOpen(!isOpen)}>
         <p className="descriptionText">Description</p>
         <i

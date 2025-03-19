@@ -5,7 +5,7 @@ const Equipement = ({ logement }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="collapse-box">
       <div className="equipement" onClick={() => setIsOpen(!isOpen)}>
         <p className="equipementText">Equipements</p>
         <i

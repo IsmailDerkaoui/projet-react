@@ -25,15 +25,13 @@ button {
   cursor: pointer;
 }
 
-.prev-button {
-  left: 10px;
-}
-
 .prevButton {
   background: none;
   color: white;
   left: 10px;
 }
+
+
 
 .nextButton {
   background: none;

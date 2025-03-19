@@ -6,13 +6,11 @@
     margin: auto;
     border-radius: 25px;
   }
-
   .carouselImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-
   button {
     position: absolute;
     top: 50%;
@@ -23,23 +21,19 @@
     padding: 10px;
     cursor: pointer;
   }
-
-  .prev-button {
-    left: 10px;
+  .flecheDroite, .flecheGauche {
+    font-size: 60px;
   }
-
   .prevButton {
     background: none;
     color: white;
     left: 10px;
   }
-
   .nextButton {
     background: none;
     color: white;
     right: 10px;
   }
-
   .lightbox-overlay {
     position: fixed;
     top: 0;
@@ -53,7 +47,6 @@
     z-index: 1000;
     cursor: pointer;
   }
-
   .lightbox-content {
     max-width: 90%;
     max-height: 90%;
