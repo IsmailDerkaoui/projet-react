@@ -1,13 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Propos from './Propos/Propos.jsx';
+import Error404 from './Error/404.jsx';
+import LogementDetail from "./logementDetail/pagePrincipale/LogementDetail.jsx";
+
+const router = createBrowserRouter ([
+  {
+    path: "/",
+    element: <App/>,
+    errorElement:  <Error404/>,
+  },
+  {
+    path: "/apartments/:id",
+    element: <LogementDetail/>
+  },
+  {
+    path: "/about",
+    element: <Propos/>,
+  },
+  {
+    path: "/",
+    element: <Error404/>,
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router= {router}/>
   </React.StrictMode>
 );
 
