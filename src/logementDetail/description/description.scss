@@ -35,6 +35,8 @@
     font-size: 24px;
     margin-right: 10px;
     margin-top: 45px;
+    transition: all 0.3s ease-in-out;
+    rotate: 90%;
   }
 
   .fa-chevron-down {
@@ -45,9 +47,6 @@
     font-weight: 700;
     font-size: 24px;
     margin-right: 10px;
-  }
-
-  .chevron {
     transition: all 0.3s ease-in-out;
+    rotate: -90%;
   }
-
