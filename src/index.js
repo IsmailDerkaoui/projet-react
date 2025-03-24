@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Propos from './Propos/Propos.jsx';
 import Error404 from './Error/404.jsx';
-import LogementDetail from "./logementDetail/pagePrincipale/LogementDetail.jsx";
+import LogementDetail from "./pagePrincipale/LogementDetail.jsx";
 
 const router = createBrowserRouter ([
   {

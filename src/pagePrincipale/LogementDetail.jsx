@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Navbar from "../../components/nav/Navbar.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
-import Description from "../description/Description.jsx";
-import Equipement from "../equipement/Equipement.jsx";
-import Carousel from "../Carousel/carousel.jsx";
+import Navbar from "../components/nav/Navbar.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import Description from "../logementDetail/description/Description.jsx";
+import Equipement from "../logementDetail/equipement/Equipement.jsx";
+import Carousel from "../logementDetail/Carousel/carousel.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import "./logementDetail.scss";
